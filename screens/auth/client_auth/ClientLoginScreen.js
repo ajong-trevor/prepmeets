@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { View, Text, ScrollView, Image, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import { lightThemeColors } from '../themes';
-import RegistrationHeader from '../components/RegistrationHeader';
-import RegistrationNavbar from '../components/RegistrationNavbar';
-import CustomInputField from '../components/CustomInputField';
-import Button from '../components/Button';
-import SocialMediaRegistration from '../components/SocialMediaRegistration';
-import InputFieldErrorMessage from '../components/InputFieldErrorMessage';
+import { lightThemeColors } from '../../../themes';
+import RegistrationHeader from '../../../components/RegistrationHeader';
+import RegistrationNavbar from '../../../components/RegistrationNavbar';
+import CustomInputField from '../../../components/textInput/CustomInputField';
+import Button from '../../../components/buttons/Button';
+import SocialMediaRegistration from '../../../components/SocialMediaRegistration';
+import InputFieldErrorMessage from '../../../components/textInput/InputFieldErrorMessage';
 
 const ClientLoginScreen = () => {
 
@@ -90,8 +90,8 @@ const ClientLoginScreen = () => {
         </View>
 
         {/* Forget password */}
-        <TouchableOpacity onPress={() => { }}>
-          <View className='flex items-end mx-5 mt-2'>
+        <TouchableOpacity className="self-end" onPress={() => { }}>
+          <View className='flex mx-5 mt-2'>
             <Text className='font-bold text-lg' style={{ color: lightThemeColors.textOrange }}>Forgot password?</Text>
           </View>
         </TouchableOpacity>

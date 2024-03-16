@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, TouchableOpacity } from 'react-native';
 
-import { lightThemeColors } from "../themes";
+import { lightThemeColors } from "../../themes";
 
 const RadioButton = (props) => {
 

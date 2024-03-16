@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react";
 import { View, FlatList, Image, TouchableOpacity, Text } from 'react-native';
 
-import OnboardingContent from "../components/OnboardingContent";
-import OnboardingIndicator from "../components/OnboardingIndicator";
+import OnboardingContent from "../components/onboarding/OnboardingContent";
+import OnboardingIndicator from "../components/onboarding/OnboardingIndicator";
 import { lightThemeColors } from "../themes";
 import onboardingData from "../constants/onboardingData";
 

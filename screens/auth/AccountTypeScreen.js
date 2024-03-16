@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { View, Text, ScrollView } from 'react-native';
 import { useNavigation } from "@react-navigation/native";
 
-import { lightThemeColors } from "../themes";
-import AccountType from "../components/AccountType";
-import RegistrationNavbar from "../components/RegistrationNavbar";
-import RegistrationHeader from "../components/RegistrationHeader";
-import accountTypeData from "../constants/accountTypeData";
-import Button from "../components/Button";
+import { lightThemeColors } from "../../themes";
+import AccountType from "../../components/AccountType";
+import RegistrationNavbar from "../../components/RegistrationNavbar";
+import RegistrationHeader from "../../components/RegistrationHeader";
+import accountTypeData from "../../constants/accountTypeData";
+import Button from "../../components/buttons/Button";
 
 const AccountTypeScreen = () => {
 

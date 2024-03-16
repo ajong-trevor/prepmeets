@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 
-import RegistrationHeader from '../components/RegistrationHeader';
-import RegistrationNavbar from '../components/RegistrationNavbar';
-import CustomInputField from '../components/CustomInputField';
-import Button from '../components/Button';
-import SocialMediaRegistration from '../components/SocialMediaRegistration';
-import { lightThemeColors } from '../themes';
-import InputFieldErrorMessage from '../components/InputFieldErrorMessage';
+import RegistrationHeader from '../../../components/RegistrationHeader';
+import RegistrationNavbar from '../../../components/RegistrationNavbar';
+import CustomInputField from '../../../components/textInput/CustomInputField';
+import Button from '../../../components/buttons/Button';
+import SocialMediaRegistration from '../../../components/SocialMediaRegistration';
+import { lightThemeColors } from '../../../themes';
+import InputFieldErrorMessage from '../../../components/textInput/InputFieldErrorMessage';
 
 const ClientSignupScreen = () => {
 

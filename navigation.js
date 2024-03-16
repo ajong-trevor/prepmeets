@@ -2,12 +2,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import OnboardingScreen from './screens/OnboardingScreen';
-import AccountTypeScreen from './screens/AccountTypeScreen';
-import ClientLoginScreen from './screens/ClientLoginScreen';
-import ClientSignupScreen from './screens/ClientSigupScreen';
-import ExpertLoginScreen from './screens/ExpertLoginScreen';
-import ExpertSignupScreen from './screens/ExpertSignupScreen';
-import HomeScreen from './screens/HomeScreen';
+import AccountTypeScreen from './screens/auth/AccountTypeScreen';
+import ClientLoginScreen from './screens/auth/client_auth/ClientLoginScreen';
+import ClientSignupScreen from './screens/auth/client_auth/ClientSigupScreen';
+import ExpertLoginScreen from './screens/auth/expert_auth/ExpertLoginScreen';
+import ExpertSignupScreen from './screens/auth/expert_auth/ExpertSignupScreen';
+import HomeScreen from './screens/home/HomeScreen';
 
 const Stack = createNativeStackNavigator();
 

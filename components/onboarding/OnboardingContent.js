@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, TouchableOpacity, Dimensions } from 'react-native';
 import { useNavigation } from "@react-navigation/native";
 
-import { lightThemeColors } from "../themes";
+import { lightThemeColors } from "../../themes";
 
 const OnboardingContent = (props) => {
 

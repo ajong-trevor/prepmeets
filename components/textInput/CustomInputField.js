@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
-import { lightThemeColors } from "../themes";
+import { lightThemeColors } from "../../themes";
 
 const CustomInputField = (props) => {
 
