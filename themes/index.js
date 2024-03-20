@@ -11,5 +11,6 @@ export const lightThemeColors = {
   textOrange: '#FC851C',
   tabInactiveIcon: '#2A3F55',
   textDarkBlue: '#2A3F55',
-  textGreen: '#6AD34F'
+  textGreen: '#6AD34F',
+  textLemonGreen: '#BEBE00'
 }

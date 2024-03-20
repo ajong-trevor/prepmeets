@@ -14,6 +14,7 @@ import HomeScreen from './screens/home/HomeScreen';
 import FindExpertScreen from './screens/findExpert/FindExpertScreen';
 import ManageSessionsScreen from './screens/manageSessions/ManageSessionsScreen';
 import ProfileScreen from './screens/profile/ProfileScreen';
+import ChatList from './screens/chat/ChatListScreen';
 import { lightThemeColors } from './themes';
 
 const Stack = createNativeStackNavigator();
@@ -33,6 +34,8 @@ const Navigation = () => {
 
       <Tap.Navigator screenOptions={({ route }) => ({
 
+        headerTitle: 'Client',
+
         headerStyle: {
           shadowOffset: {
             width: 0,
@@ -45,9 +48,11 @@ const Navigation = () => {
         },
 
         headerLeft: () => (
-          <View className="ml-6">
-            <Image className="w-12 h-12 rounded-full" source={require('./assets/images/profilePicture.jpg')} />
-          </View>
+          <TouchableOpacity onPress={() => { }}>
+            <View className="ml-6">
+              <Image className="w-12 h-12 rounded-full" source={require('./assets/images/profilePicture.jpg')} />
+            </View>
+          </TouchableOpacity>
         ),
 
         headerRight: () => (
